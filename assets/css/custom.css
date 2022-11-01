@@ -253,13 +253,23 @@ body {
   margin-top: 10px;
 }
 
-li a {
+.ul-footer {
+  list-style-type: none;
+}
+
+.list-head {
+  color: white;
+  color: #fff501;
+}
+
+.list-navbar .a-navbar {
   color: white;
   text-decoration: none;
 }
 
-a:hover {
-  color: black;
+.a-navbar:hover {
+  color: white;
+  text-decoration: underline;
 }
 
 .copyright {
@@ -312,11 +322,34 @@ a:hover {
   margin-right: 4px;
   font-size: 15px;
   line-height: 22px;
+  margin-left: 10px;
 }
 
 .proslay-text {
   text-align: start;
   width: 350px;
-  padding-left: 7px;
+}
+
+.proslay-name {
+  font-size: 13px;
+  height: 45px;
+  text-align: left;
+  display: table-cell;
+  padding: 0 5px;
+  margin: 0;
+  vertical-align: middle;
+}
+
+.prosedur-image {
+  height: 40px;
+  display: table-cell;
+  margin: 0;
+}
+
+.prosedur-image-medium img {
+  height: auto;
+  width: 80px;
+  margin-top: -20px;
+  margin-right: 3px;
 }
 /* PENERIMA UPAH AKHIR */

@@ -1,0 +1,322 @@
+body {
+  font-family: "Gotham", sans-serif;
+  font-size: 1rem;
+}
+
+/* NAVBAR AWAL */
+.hover-btn {
+  background-color: #226da8;
+  color: #e2edff;
+}
+
+.hover-btn:hover {
+  opacity: 75%;
+  background-color: white;
+  color: black;
+}
+
+.btn-navbar {
+  background-color: white;
+  color: black;
+  border-radius: 1rem;
+}
+
+.btn-navbar:hover {
+  background-color: #dbdbdb;
+  border-radius: 1rem;
+}
+/* NAVBAR AKHIR */
+
+/* CAROUSEL AWAL */
+.web-carousel {
+  display: block;
+}
+
+.mobile-carousel {
+  display: none;
+}
+
+@media (max-width: 640px) and (min-width: 320px) {
+  .web-carousel {
+    display: none;
+  }
+  .mobile-carousel {
+    display: block;
+  }
+}
+
+.carousel-caption {
+  position: absolute;
+  right: auto;
+  top: 30%;
+  left: 11%;
+  z-index: 10;
+  padding-top: 0;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: left;
+  text-shadow: 0 0 black;
+  width: 40%;
+}
+
+@media screen and (max-width: 376px) {
+  .carousel-caption h1 {
+    font-size: 30px !important;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .carousel-caption h1 {
+    font-size: 35px !important;
+  }
+}
+
+@media screen and (max-width: 481px) {
+  .carousel-caption h1 {
+    font-size: 40px !important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .carousel-caption h1 {
+    font-size: 2.2rem !important;
+  }
+}
+
+.carousel-caption .paragraph {
+  font-size: 14px;
+}
+
+@media screen and (max-width: 768px) {
+  .carousel-caption .paragraph {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 481px) {
+  .carousel-caption {
+    width: 80%;
+    top: 17%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .carousel-caption {
+    top: 25%;
+  }
+}
+
+@media screen and (max-width: 2560px) {
+  .heading {
+    color: #fff;
+    font-size: 88px;
+  }
+}
+
+@media screen and (max-width: 1920px) {
+  .heading {
+    color: #fff;
+  }
+}
+
+@media screen and (max-width: 1680px) {
+  .heading {
+    color: #fff;
+    margin-top: 50px;
+    font-size: 45px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .heading {
+    color: #fff;
+    margin-top: 5px;
+    font-size: 54px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .heading {
+    color: #fff;
+    font-size: 44px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .heading {
+    color: #fff;
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .heading {
+    color: #fff;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 481px) {
+  .heading {
+    color: #fff;
+    font-size: 15px;
+  }
+}
+/* CAROUSEL AKHIR */
+
+/* JUMBOTRON AWAL */
+.jumbotron {
+  padding-top: 6rem;
+  background-color: white;
+}
+/* JUMBOTRON AKHIR */
+
+/* PROGRAM AWAL */
+.jaminan-list {
+  margin: 10px 0px;
+}
+.jaminan-row {
+  margin: 5px 0;
+}
+.jaminan-images {
+  height: 40px;
+  display: table-cell;
+  margin: 0;
+}
+.jaminan-names {
+  font-size: 13px;
+  height: 45px;
+  text-align: left;
+  display: table-cell;
+  padding: 0 5px;
+  margin: 0;
+  vertical-align: middle;
+}
+.jaminan-names a {
+  font-size: 14px !important;
+  color: #0087d9;
+  font-weight: 600;
+  text-decoration: none;
+}
+/* PROGRAM AKHIR */
+
+/* JMO AWAL */
+.bg-light-gray {
+  background-color: #cad9e330;
+}
+
+#JMO .padding-top-jmo {
+  padding-top: 100px;
+}
+
+#JMO .padding-left-jmo {
+  padding-left: 0px;
+}
+
+.padding-top-jmo {
+  padding-top: 100px;
+}
+
+@media screen and (max-width: 600px) {
+  #JMO .jmo-width-300 {
+    width: 300px;
+  }
+}
+
+.button-download {
+  display: block;
+  max-width: 230px;
+  max-height: 95px;
+  width: auto;
+  height: auto;
+}
+/* JMO AKHIR */
+
+/* BERITA AWAL */
+.berita-lainnya {
+  color: #226da8;
+  text-decoration: none;
+}
+/* BERITA AKHIR */
+
+/* FOOTER AWAL */
+.footer {
+  background-color: #005c99;
+  background-image: url(img/footer-super-graf.png);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+}
+
+.call-center {
+  display: block;
+  margin-right: 25px;
+  margin-top: 10px;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+}
+
+.copyright {
+  font-size: 12px;
+}
+/* FOOTER AKHIR */
+
+/* PENERIMA UPAH AWAL */
+.badge-list {
+  background-color: #226da8;
+  color: white;
+  border-radius: 10px;
+  padding: 3px 8px;
+}
+
+.panel-body {
+  padding: 15px;
+  padding-left: 35px;
+}
+
+.collapse-menu {
+  text-decoration: none;
+  color: gray;
+  font-weight: bold;
+}
+
+.hover-manfaat {
+  text-decoration: none;
+  color: gray;
+}
+
+.proslay-row {
+  margin: 27px 0;
+  display: inline-flex;
+  align-items: center;
+}
+
+.prosedur-ket {
+  font-size: 13px;
+  height: 45px;
+  text-align: left;
+  display: table-cell;
+  padding: 0 5px;
+  margin: 0;
+  vertical-align: middle;
+  align-items: center;
+}
+
+.proslay-number {
+  margin-right: 4px;
+  font-size: 15px;
+  line-height: 22px;
+}
+
+.proslay-text {
+  text-align: start;
+  width: 350px;
+  padding-left: 7px;
+}
+/* PENERIMA UPAH AKHIR */

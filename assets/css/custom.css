@@ -301,55 +301,23 @@ body {
   color: gray;
 }
 
-.proslay-row {
-  margin: 27px 0;
-  display: inline-flex;
-  align-items: center;
-}
-
-.prosedur-ket {
-  font-size: 13px;
-  height: 45px;
-  text-align: left;
-  display: table-cell;
-  padding: 0 5px;
-  margin: 0;
-  vertical-align: middle;
-  align-items: center;
+.proslay-image {
+  width: 75px;
+  margin: 10px;
 }
 
 .proslay-number {
-  margin-right: 4px;
-  font-size: 15px;
-  line-height: 22px;
+  margin: 5px;
   margin-left: 10px;
 }
 
 .proslay-text {
-  text-align: start;
-  width: 350px;
+  margin: 5px;
 }
 
-.proslay-name {
-  font-size: 13px;
-  height: 45px;
-  text-align: left;
-  display: table-cell;
-  padding: 0 5px;
-  margin: 0;
-  vertical-align: middle;
-}
-
-.prosedur-image {
-  height: 40px;
-  display: table-cell;
-  margin: 0;
-}
-
-.prosedur-image-medium img {
-  height: auto;
-  width: 80px;
-  margin-top: -20px;
-  margin-right: 3px;
+.proslay-link {
+  text-decoration: none;
+  color: #005c99;
+  font-weight: bold;
 }
 /* PENERIMA UPAH AKHIR */

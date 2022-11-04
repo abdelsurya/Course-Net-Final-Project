@@ -194,7 +194,7 @@ body {
 }
 .jaminan-names a {
   font-size: 14px !important;
-  color: #0087d9;
+  color: #226da8;
   font-weight: 600;
   text-decoration: none;
 }
@@ -241,7 +241,7 @@ body {
 
 /* FOOTER AWAL */
 .footer {
-  background-color: #005c99;
+  background-color: #226da8;
   background-image: url(img/footer-super-graf.png);
   background-position: bottom right;
   background-repeat: no-repeat;
@@ -317,7 +317,22 @@ body {
 
 .proslay-link {
   text-decoration: none;
-  color: #005c99;
+  color: #226da8;
+  font-weight: bold;
+}
+
+.navtabs-custom {
   font-weight: bold;
 }
 /* PENERIMA UPAH AKHIR */
+
+/* BERITA AWAL */
+
+.card-body a {
+  text-decoration: none;
+  color: #226da8;
+}
+
+.card-body a:hover {
+  color: black;
+}

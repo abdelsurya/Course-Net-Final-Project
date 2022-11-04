@@ -24,6 +24,9 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link btn-navbar" href="index.html">Beranda</a>
+                    </li>
                     <li class="nav-item dropdown btn-navbar">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
@@ -35,10 +38,7 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link btn-navbar" href="#cara-klaim">Cara Klaim</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link btn-navbar" href="#">Berita</a>
+                        <a class="nav-link btn-navbar" href="berita.html">Berita</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link btn-navbar" href="#">Tentang Kami</a>
@@ -73,7 +73,7 @@
             </div>
             <div class="row justify-content-center">
                 <div class="col-6">
-                    <div class="accordion accordion-flush" id="manfaat-bpu">
+                    <div class="accordion accordion-flush" id="manfaat-pu">
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="jht">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -491,7 +491,7 @@
         </div>
         <div class="container-fluid bg-light">
             <div class="container-sm">
-                <ul class="nav nav-tabs justify-content-center">
+                <ul class="nav nav-tabs justify-content-center navtabs-custom">
                     <li class="nav-item">
                         <a class="nav-link active" data-bs-toggle="tab" href="#prosedur-layanan">Prosedur Layanan</a>
                     </li>
@@ -550,7 +550,7 @@
                         </div>
                     </div>
                     <div class="tab-pane container" id="dokumen-pendaftaran">
-                        <div class="row">
+                        <div class="row justify-content-center">
                             <div class="mt-3">
                                 <h4>Dokumen Pendaftaran</h4>
                                 <p>Pemberi kerja mempersiapkan kelengkapan dokumen sebagai syarat pendaftaran peserta
@@ -573,6 +573,9 @@
                     <div class="tab-pane container" id="perhitungan-iuran">
                         <div class="row justify-content-center">
                             <div class="col-6">
+                                <div class="mt-3 mb-3">
+                                    <h3>Perhitungan Iuran</h3>
+                                </div>
                                 <div class="accordion" id=perhitungan-jkk">
                                     <div class="accordion-item">
                                         <h2 class="accordion-header" id="headingjkk">
@@ -609,6 +612,42 @@
                                             aria-labelledby="headingjkm" data-bs-parent="perhitungan-jkm">
                                             <div class="accordion-body">
                                                 0,3% dari Upah sebulan
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingjht">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapsejht" aria-expanded="true"
+                                                aria-controls="collapsejht">
+                                                Jaminan Hari Tua
+                                            </button>
+                                        </h2>
+                                        <div id="collapsejht" class="accordion-collapse collapse"
+                                            aria-labelledby="headingjht" data-bs-parent="perhitungan-jht">
+                                            <div class="accordion-body">
+                                                <ol type="1">
+                                                    <li>Pemberi kerja 3,7% dari Upah sebulan</li>
+                                                    <li>Pekerja 2% dari Upah sebulan</li>
+                                                </ol>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingjpn">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapsejpn" aria-expanded="true"
+                                                aria-controls="collapsejpn">
+                                                Jaminan Pensiun
+                                            </button>
+                                        </h2>
+                                        <div id="collapsejpn" class="accordion-collapse collapse"
+                                            aria-labelledby="headingjpn" data-bs-parent="perhitungan-jpn">
+                                            <div class="accordion-body">
+                                                <ol type="1">
+                                                    <li>Pemberi kerja 2% dari Upah sebulan</li>
+                                                    <li>Pekerja 1% dari Upah sebulan</li>
+                                                </ol>
                                             </div>
                                         </div>
                                     </div>

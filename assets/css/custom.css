@@ -336,3 +336,23 @@ body {
 .card-body a:hover {
   color: black;
 }
+/* BERITA AKHIR */
+
+/* TENTANG KAMI AWAL */
+.visi-misi {
+  color: #226da8;
+}
+
+.ceklist {
+  margin-right: 10px;
+}
+
+.img-visimisi {
+  margin-top: 30%;
+}
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}

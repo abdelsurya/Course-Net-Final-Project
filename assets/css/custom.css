@@ -242,7 +242,7 @@ body {
 /* FOOTER AWAL */
 .footer {
   background-color: #226da8;
-  background-image: url(img/footer-super-graf.png);
+  background-image: url(/img/footer-super-graf.png);
   background-position: bottom right;
   background-repeat: no-repeat;
 }

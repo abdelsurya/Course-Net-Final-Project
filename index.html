@@ -11,9 +11,11 @@
     <link rel="stylesheet" href="assets/css/custom.css">
     <link rel="shortcut icon" href="img/tabicon.png" type="image/x-icon">
     <link href="http://fonts.cdnfonts.com/css/gotham" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 </head>
 
 <body id="beranda">
+
     <!-- NAVBAR AWAL -->
     <nav class="navbar navbar-expand-lg bd-navbar fixed-top shadow-sm" style="background-color: white">
         <div class="container-lg">
@@ -25,7 +27,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link btn-navbar" href="#beranda">Beranda</a>
+                        <a class="nav-link btn-navbar" href="index.html">Beranda</a>
                     </li>
                     <li class="nav-item dropdown btn-navbar">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -56,33 +58,18 @@
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="img/selamat-datang.jpg" class="web-carousel" alt="selamat-datang" style="width: 100%;">
-                <img src="img/selamat-datang-mobile.jpg" class="mobile-carousel" alt="selamat-datang-mobile"
+                <img src="img/selamat-datang.png" class="web-carousel" alt="selamat-datang" style="width: 100%;">
+                <img src="img/selamat-datang-mobile.png" class="mobile-carousel" alt="selamat-datang-mobile"
                     style="width: 100%;">
-                <div class="carousel-caption">
-                    <h1 class="heading">Selamat Datang di<br>Website BPJAMSOSTEK</h1>
-                    <p class="paragraph">Dapatkan Informasi Kemudahan Layanan dan Informasi Kepesertaan Disini</p>
-                </div>
             </div>
             <div class="carousel-item">
                 <img src="img/menggandeng-bpu.jpg" class="web-carousel" alt="menggandeng-bpu" style="width: 100%;">
                 <img src="img/menggandeng-bpu-mobile.jpg" class="mobile-carousel" alt="menggandeng-bpu-mobile"
                     style="width: 100%;">
-                <div class="carousel-caption">
-                    <h1 class="heading">Ayo Sejahterakan Pekerja Sekitar Anda</h1>
-                    <p class="paragraph">Daftarkan suami/ istri yang bekerja, PRT, sopir pribadi, tukang kebun, petugas
-                        keamanan, petugas kebersihan, dan lainnya menjadi peserta BPJAMSOSTEK. Mulai dari Rp36.800,- /
-                        bulan. Melalui Aplikasi JMO.</p>
-                </div>
             </div>
             <div class="carousel-item">
-                <img src="img/gunakan-jmo.jpg" class="web-carousel" alt="gunakan-jmo" style="width: 100%;">
-                <img src="img/gunakan-jmo-mobile.jpg" class="mobile-carousel" alt="gunakan-jmo-mobile"
-                    style="width: 100%;">
-                <div class="carousel-caption">
-                    <h1 class="heading">Gunakan JMO Untuk Klaim JHT</h1>
-                    <p class="paragraph">Klaim JHT dengan Saldo kurang dari 10 Juta Jadi Cepat, Hanya 15 Menit aja</p>
-                </div>
+                <img src="img/banner-inpres.jpg" class="web-carousel" alt="" style="width: 100%;">
+                <img src="img/banner-inpres-mobile.jpg" class="mobile-carousel" alt="" style="width: 100%;">
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
@@ -99,13 +86,19 @@
     <!-- CAROUSEL AKHIR -->
 
     <!-- JUMBOTRON AWAL -->
-    <section class="jumbotron text-center mb-5">
-        <img src="img/167121592.jpg" alt="abdel surya" width="200" class="rounded-circle img-thumbnail mouse-laymas">
-        <h1 class="display-4">Abdel Surya</h1>
-        <p class="lead">Account Representative BPJS Ketenagakerjaan</p>
-        <p class="mb-5">Kantor Cabang Tangerang Batuceper</p>
-        <span class="dropdown-divider"></span>
-    </section>
+    <div class="container text-center mt-5 mb-5">
+        <h1 style="color: #226da8;">BPJS Ketenagakerjaan <br> Tangerang Batuceper</h1>
+        <div class="img-wrap">
+            <div class="img-area justify-content-center">
+                <img src="img/167121592.jpg" alt="" class="rounded-circle mouse-laymas">
+                <!-- <img src="img/search.svg" alt="" class="mouse-laymas2 fade"> -->
+            </div>
+        </div>
+
+        <h2>Abdel Surya</h2>
+        <p>Account Representative</p>
+    </div>
+    <hr>
     <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -138,120 +131,115 @@
     <!-- JUMBOTRON AKHIR -->
 
     <!-- PROGRAM AWAL -->
-    <section id="program">
-        <div class="container-lg mb-5">
-            <div class="row text-center">
-                <div class="col">
-                    <h2 class="text-uppercase" style="color:#226da8 ;">informasi kepesertaan</h2>
-                </div>
+    <div class="container mt-5">
+        <div class="row text-center">
+            <div class="col">
+                <h2 class="text-uppercase" style="color:#226da8 ;">informasi kepesertaan</h2>
             </div>
-            <div class="row justify-content-center fs-5">
-                <div class="col-sm-6 col-12 mt-3 h-100">
-                    <img src="img/product-icon-peserta-pu.svg" alt="penerima upah" width="75">
-                    <h4 class="text-capitalize" style="color:#226da8 ;">penerima upah</h4>
-                    <p>Setiap orang yang bekerja dengan menerima gaji, upah, atau imbalan dalam bentuk lain dari
-                        pemberi
-                        kerja. Seperti pekerja kantoran atau buruh pabrik.
-                    </p>
-                    <p>Jaminan yang Diberikan:</p>
-                    <div class="jaminan-list">
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <div class="jaminan-row">
-                                    <div class="jaminan-images">
-                                        <img src="img/product-icon-jaminan-kecelakaan.svg"
-                                            alt="jaminan-kecelakaan-kerja" width="40">
-                                    </div>
-                                    <div class="jaminan-names">
-                                        <a href="penerima-upah.html">Jaminan Kecelakaan Kerja</a>
-                                    </div>
+        </div>
+        <div class="row justify-content-center fs-5">
+            <div class="col-sm-6 col-12 mt-3 h-100">
+                <img src="img/product-icon-peserta-pu.svg" alt="penerima upah" width="75">
+                <h4 class="text-capitalize" style="color:#226da8 ;">penerima upah</h4>
+                <p>Setiap orang yang bekerja dengan menerima gaji, upah, atau imbalan dalam bentuk lain dari
+                    pemberi
+                    kerja. Seperti pekerja kantoran atau buruh pabrik.
+                </p>
+                <p>Jaminan yang Diberikan:</p>
+                <div class="jaminan-list">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="jaminan-row">
+                                <div class="jaminan-images">
+                                    <img src="img/product-icon-jaminan-kecelakaan.svg" alt="jaminan-kecelakaan-kerja"
+                                        width="40">
+                                </div>
+                                <div class="jaminan-names">
+                                    <a href="penerima-upah.html">Jaminan Kecelakaan Kerja</a>
                                 </div>
                             </div>
-                            <div class="col-sm-6">
-                                <div class="jaminan-row">
-                                    <div class="jaminan-images">
-                                        <img src="img/product-icon-jaminan-kematian.svg" alt="jaminan-kematian"
-                                            width="40">
-                                    </div>
-                                    <div class="jaminan-names">
-                                        <a href="penerima-upah.html">Jaminan Kematian</a>
-                                    </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="jaminan-row">
+                                <div class="jaminan-images">
+                                    <img src="img/product-icon-jaminan-kematian.svg" alt="jaminan-kematian" width="40">
+                                </div>
+                                <div class="jaminan-names">
+                                    <a href="penerima-upah.html">Jaminan Kematian</a>
                                 </div>
                             </div>
-                            <div class="col-sm-6">
-                                <div class="jaminan-row">
-                                    <div class="jaminan-images">
-                                        <img src="img/product-icon-jaminan-jht.svg" alt="jaminan-hari-tua" width="40">
-                                    </div>
-                                    <div class="jaminan-names">
-                                        <a href="penerima-upah.html">Jaminan Hari Tua</a>
-                                    </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="jaminan-row">
+                                <div class="jaminan-images">
+                                    <img src="img/product-icon-jaminan-jht.svg" alt="jaminan-hari-tua" width="40">
+                                </div>
+                                <div class="jaminan-names">
+                                    <a href="penerima-upah.html">Jaminan Hari Tua</a>
                                 </div>
                             </div>
-                            <div class="col-sm-6">
-                                <div class="jaminan-row">
-                                    <div class="jaminan-images">
-                                        <img src="img/product-icon-jaminan-pensiun.svg" alt="jaminan-pensiun"
-                                            width="40">
-                                    </div>
-                                    <div class="jaminan-names">
-                                        <a href="penerima-upah.html">Jaminan Pensiun</a>
-                                    </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="jaminan-row">
+                                <div class="jaminan-images">
+                                    <img src="img/product-icon-jaminan-pensiun.svg" alt="jaminan-pensiun" width="40">
+                                </div>
+                                <div class="jaminan-names">
+                                    <a href="penerima-upah.html">Jaminan Pensiun</a>
                                 </div>
                             </div>
-                            <div class="col-sm-6">
-                                <div class="jaminan-row">
-                                    <div class="jaminan-images">
-                                        <img src="img/product-icon-jaminan-kehilangan-pekerjaan.svg"
-                                            alt="jaminan-kehilangan-pekerjaan" width="40">
-                                    </div>
-                                    <div class="jaminan-names">
-                                        <a href="penerima-upah.html">Jaminan Kehilangan Pekerjaan</a>
-                                    </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="jaminan-row">
+                                <div class="jaminan-images">
+                                    <img src="img/product-icon-jaminan-kehilangan-pekerjaan.svg"
+                                        alt="jaminan-kehilangan-pekerjaan" width="40">
+                                </div>
+                                <div class="jaminan-names">
+                                    <a href="penerima-upah.html">Jaminan Kehilangan Pekerjaan</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-12 mt-3 h-100">
-                    <img src="/img/product-icon-peserta-bpu.svg" alt="bukan penerima upah" width="75">
-                    <h4 class="text-capitalize" style="color:#226da8 ;">bukan penerima upah</h4>
-                    <p>Orang perorangan yang melakukan kegiatan usaha secara mandiri untuk memperoleh
-                        penghasilan.
-                        Seperti Dokter, Pedagang, Ojek Online dan lain lain</p>
-                    <p>Jaminan yang Diberikan:</p>
-                    <div class="jaminan-list">
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <div class="jaminan-row">
-                                    <div class="jaminan-images">
-                                        <img src="img/product-icon-jaminan-kecelakaan.svg"
-                                            alt="jaminan-kecelakaan-kerja" width="40">
-                                    </div>
-                                    <div class="jaminan-names">
-                                        <a href="bukan-penerima-upah.html">Jaminan Kecelakaan Kerja</a>
-                                    </div>
+            </div>
+            <div class="col-sm-6 col-12 mt-3 h-100">
+                <img src="/img/product-icon-peserta-bpu.svg" alt="bukan penerima upah" width="75">
+                <h4 class="text-capitalize" style="color:#226da8 ;">bukan penerima upah</h4>
+                <p>Orang perorangan yang melakukan kegiatan usaha secara mandiri untuk memperoleh
+                    penghasilan.
+                    Seperti Dokter, Pedagang, Ojek Online dan lain lain</p>
+                <p>Jaminan yang Diberikan:</p>
+                <div class="jaminan-list">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="jaminan-row">
+                                <div class="jaminan-images">
+                                    <img src="img/product-icon-jaminan-kecelakaan.svg" alt="jaminan-kecelakaan-kerja"
+                                        width="40">
+                                </div>
+                                <div class="jaminan-names">
+                                    <a href="bukan-penerima-upah.html">Jaminan Kecelakaan Kerja</a>
                                 </div>
                             </div>
-                            <div class="col-sm-6">
-                                <div class="jaminan-row">
-                                    <div class="jaminan-images">
-                                        <img src="img/product-icon-jaminan-kematian.svg" alt="jaminan-kematian"
-                                            width="40">
-                                    </div>
-                                    <div class="jaminan-names">
-                                        <a href="bukan-penerima-upah.html">Jaminan Kematian</a>
-                                    </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="jaminan-row">
+                                <div class="jaminan-images">
+                                    <img src="img/product-icon-jaminan-kematian.svg" alt="jaminan-kematian" width="40">
+                                </div>
+                                <div class="jaminan-names">
+                                    <a href="bukan-penerima-upah.html">Jaminan Kematian</a>
                                 </div>
                             </div>
-                            <div class="col-sm-6">
-                                <div class="jaminan-row">
-                                    <div class="jaminan-images">
-                                        <img src="img/product-icon-jaminan-jht.svg" alt="jaminan-hari-tua" width="40">
-                                    </div>
-                                    <div class="jaminan-names">
-                                        <a href="bukan-penerima-upah.html">Jaminan Hari Tua</a>
-                                    </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="jaminan-row">
+                                <div class="jaminan-images">
+                                    <img src="img/product-icon-jaminan-jht.svg" alt="jaminan-hari-tua" width="40">
+                                </div>
+                                <div class="jaminan-names">
+                                    <a href="bukan-penerima-upah.html">Jaminan Hari Tua</a>
                                 </div>
                             </div>
                         </div>
@@ -259,113 +247,106 @@
                 </div>
             </div>
         </div>
-        </div>
-        </div>
-    </section>
+    </div>
     <!-- PROGRAM AKHIR -->
 
     <!-- JMO AWAL -->
-    <section id="JMO">
-        <div class="bg-light-gray">
-            <div class="container-lg mb-5">
-                <div class="row align-items-center">
-                    <div class="col-lg-6 col-md-6 col-xs-12 padding-top-jmo">
-                        <h2>Nggak Mau Ribet? <span style="color:#37b34a;">JMO</span>in aja!</h2>
-                        <h2 class="jmo-width-300">Download Aplikasinya Sekarang</h2>
-                        <div class="row padding-left-jmo">
-                            <div class="col-md-4 mt-3">
-                                <a href="https://apps.apple.com/id/app/bpjstku/id1444834757" target="_blank">
-                                    <img class="w-100 mb-3 button-download" src="img/icon-jmo-app-store.svg"
-                                        alt="appstorelogo">
-                                </a>
-                            </div>
-                            <div class="col-md-4 mt-3">
-                                <a href="https://play.google.com/store/apps/details?id=com.bpjstku" target="_blank">
-                                    <img class="w-100 mb-3 button-download" src="img/icon-jmo-google-play.svg"
-                                        alt="playstorelogo">
-                                </a>
-                            </div>
+    <div class="bg-light-gray">
+        <div class="container mt-5">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-6 col-xs-12 padding-top-jmo">
+                    <h2>Nggak Mau Ribet? <span style="color:#37b34a;">JMO</span>in aja!</h2>
+                    <h2 class="jmo-width-300">Download Aplikasinya Sekarang</h2>
+                    <div class="row padding-left-jmo">
+                        <div class="col-md-4 mt-3">
+                            <a href="https://apps.apple.com/id/app/bpjstku/id1444834757" target="_blank">
+                                <img class="w-100 mb-3 button-download" src="img/icon-jmo-app-store.svg"
+                                    alt="appstorelogo">
+                            </a>
+                        </div>
+                        <div class="col-md-4 mt-3">
+                            <a href="https://play.google.com/store/apps/details?id=com.bpjstku" target="_blank">
+                                <img class="w-100 mb-3 button-download" src="img/icon-jmo-google-play.svg"
+                                    alt="playstorelogo">
+                            </a>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-xs-12">
-                        <img src="/img/img-home-jmo.webp" alt="jmo-screenshot" width="120%">
-                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-xs-12">
+                    <img src="/img/img-home-jmo.webp" alt="jmo-screenshot" width="120%">
                 </div>
             </div>
         </div>
-    </section>
+    </div>
     <!-- JMO AKHIR -->
 
     <!-- BERITA AWAL -->
-    <section id="berita">
-        <div class="container-lg">
-            <div class="row text-center mb-3">
-                <div class="col">
-                    <h2>BERITA</h2>
-                </div>
+    <div class="container mt-5">
+        <div class="row text-center mb-3">
+            <div class="col">
+                <h2 style="color:#226da8;">BERITA</h2>
             </div>
-            <div class="row">
-                <div class="col-md-4 mb-3">
-                    <div class="card h-100 shadow-sm">
-                        <img src="img/tusinah.jpg" class="card-img-top" alt="tusinah-terharu">
-                        <div class="card-body">
-                            <h5 class="card-title">Tusinah Terharu Terima Santunan dari BPJS Ketenagakerjaan Batuceper
-                            </h5>
-                            <p class="card-text">Tusinah, istri dari mendiang Andi Sumardi mengaku sangat terharu dan
-                                berterima kasih kepada Badan Penyelenggaraan Jaminan Sosial Ketenagakerjaan
-                                (BPJAMSOSTEK) Cabang Tangerang Batuceper
-                            </p>
-                        </div>
-                        <div class="card-footer bg-transparent text-center">
-                            <a href="berita.html" class="btn btn-primary">Selengkapnya</a>
-                        </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 mb-3">
+                <div class="card h-100 shadow-sm">
+                    <img src="img/tusinah.jpg" class="card-img-top" alt="tusinah-terharu">
+                    <div class="card-body">
+                        <h5 class="card-title">Tusinah Terharu Terima Santunan dari BPJS Ketenagakerjaan Batuceper
+                        </h5>
+                        <p class="card-text">Tusinah, istri dari mendiang Andi Sumardi mengaku sangat terharu dan
+                            berterima kasih kepada Badan Penyelenggaraan Jaminan Sosial Ketenagakerjaan
+                            (BPJAMSOSTEK) Cabang Tangerang Batuceper
+                        </p>
                     </div>
-                </div>
-                <div class="col-md-4 mb-3">
-                    <div class="card h-100 shadow-sm">
-                        <img src="img/customer-gathering.jpg" class="card-img-top" alt="customer-gathering">
-                        <div class="card-body">
-                            <h5 class="card-title">BPJS Ketenagakerjaan Tangerang Batuceper Gelar Customer Gathering
-                            </h5>
-                            <p class="card-text">Guna menjalin silaturahmi dan mempererat komunikasi dengan perusahaan,
-                                BPJAMSOSTEK Cabang Tangerang Batuceper menggelar Customer Gathering sebagai bentuk
-                                apresiasi kepada Perusahaan Binaan.
-                            </p>
-                        </div>
-                        <div class="card-footer bg-transparent text-center">
-                            <a href="berita.html" class="btn btn-primary">Selengkapnya</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-3">
-                    <div class="card h-100 shadow-sm">
-                        <img src="img/pedagang-pasar.jpg" class="card-img-top" alt="pedagang-pasar">
-                        <div class="card-body">
-                            <h5 class="card-title">BPJS Ketenagakerjaan Tangerang Batuceper Sasar Pedagang Pasar
-                            </h5>
-                            <p class="card-text">Badan Penyelenggara Jaminan Sosial (BPJS) Ketenagakerjaan Cabang
-                                Tangerang Batuceper melakukan kegiatan Grebek Pasar dengan sasar pada pedagang di Pasar
-                                Poris Kota Tangerang.
-                            </p>
-                        </div>
-                        <div class="card-footer bg-transparent text-center">
-                            <a href="berita.html" class="btn btn-primary">Selengkapnya</a>
-                        </div>
+                    <div class="card-footer bg-transparent text-center">
+                        <a href="berita.html" class="btn btn-primary">Selengkapnya</a>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col text-end mb-5 fw-semibold">
-                    <a class="berita-lainnya" href="berita.html">Berita lainnya <svg xmlns="http://www.w3.org/2000/svg"
-                            width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short"
-                            viewBox="0 0 16 16">
-                            <path fill-rule="evenodd"
-                                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
-                        </svg></a>
+            <div class="col-md-4 mb-3">
+                <div class="card h-100 shadow-sm">
+                    <img src="img/customer-gathering.jpg" class="card-img-top" alt="customer-gathering">
+                    <div class="card-body">
+                        <h5 class="card-title">BPJS Ketenagakerjaan Tangerang Batuceper Gelar Customer Gathering
+                        </h5>
+                        <p class="card-text">Guna menjalin silaturahmi dan mempererat komunikasi dengan perusahaan,
+                            BPJAMSOSTEK Cabang Tangerang Batuceper menggelar Customer Gathering sebagai bentuk
+                            apresiasi kepada Perusahaan Binaan.
+                        </p>
+                    </div>
+                    <div class="card-footer bg-transparent text-center">
+                        <a href="berita.html" class="btn btn-primary">Selengkapnya</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card h-100 shadow-sm">
+                    <img src="img/pedagang-pasar.jpg" class="card-img-top" alt="pedagang-pasar">
+                    <div class="card-body">
+                        <h5 class="card-title">BPJS Ketenagakerjaan Tangerang Batuceper Sasar Pedagang Pasar
+                        </h5>
+                        <p class="card-text">Badan Penyelenggara Jaminan Sosial (BPJS) Ketenagakerjaan Cabang
+                            Tangerang Batuceper melakukan kegiatan Grebek Pasar dengan sasar pada pedagang di Pasar
+                            Poris Kota Tangerang.
+                        </p>
+                    </div>
+                    <div class="card-footer bg-transparent text-center">
+                        <a href="berita.html" class="btn btn-primary">Selengkapnya</a>
+                    </div>
                 </div>
             </div>
         </div>
-    </section>
+        <div class="row">
+            <div class="col text-end mb-5 fw-semibold">
+                <a class="berita-lainnya" href="berita.html">Berita lainnya <svg xmlns="http://www.w3.org/2000/svg"
+                        width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                    </svg></a>
+            </div>
+        </div>
+    </div>
     <!-- BERITA AKHIR -->
 
     <!-- FOOTER AWAL -->

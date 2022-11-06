@@ -45,135 +45,17 @@ body {
   }
 }
 
-.carousel-caption {
-  position: absolute;
-  right: auto;
-  top: 30%;
-  left: 11%;
-  z-index: 10;
-  padding-top: 0;
-  padding-bottom: 20px;
-  color: #fff;
-  text-align: left;
-  text-shadow: 0 0 black;
-  width: 40%;
-}
-
-@media screen and (max-width: 376px) {
-  .carousel-caption h1 {
-    font-size: 30px !important;
-  }
-}
-
-@media screen and (max-width: 414px) {
-  .carousel-caption h1 {
-    font-size: 35px !important;
-  }
-}
-
-@media screen and (max-width: 481px) {
-  .carousel-caption h1 {
-    font-size: 40px !important;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .carousel-caption h1 {
-    font-size: 2.2rem !important;
-  }
-}
-
-.carousel-caption .paragraph {
-  font-size: 14px;
-}
-
-@media screen and (max-width: 768px) {
-  .carousel-caption .paragraph {
-    font-size: 10px;
-  }
-}
-
-@media screen and (max-width: 481px) {
-  .carousel-caption {
-    width: 80%;
-    top: 17%;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .carousel-caption {
-    top: 25%;
-  }
-}
-
-@media screen and (max-width: 2560px) {
-  .heading {
-    color: #fff;
-    font-size: 88px;
-  }
-}
-
-@media screen and (max-width: 1920px) {
-  .heading {
-    color: #fff;
-  }
-}
-
-@media screen and (max-width: 1680px) {
-  .heading {
-    color: #fff;
-    margin-top: 50px;
-    font-size: 45px;
-  }
-}
-
-@media screen and (max-width: 1400px) {
-  .heading {
-    color: #fff;
-    margin-top: 5px;
-    font-size: 54px;
-  }
-}
-
-@media screen and (max-width: 1280px) {
-  .heading {
-    color: #fff;
-    font-size: 44px;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .heading {
-    color: #fff;
-    font-size: 30px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .heading {
-    color: #fff;
-    font-size: 20px;
-  }
-}
-
-@media screen and (max-width: 481px) {
-  .heading {
-    color: #fff;
-    font-size: 15px;
-  }
-}
 /* CAROUSEL AKHIR */
 
 /* JUMBOTRON AWAL */
-.jumbotron {
-  padding-top: 6rem;
-  background-color: white;
-}
-
 .mouse-laymas:hover {
-  opacity: 75%;
+  opacity: 50%;
 }
-
+.mouse-laymas {
+  width: 200px;
+  border-style: solid;
+  border-width: 1px;
+}
 /* JUMBOTRON AKHIR */
 
 /* PROGRAM AWAL */

@@ -169,6 +169,11 @@ body {
   padding-top: 6rem;
   background-color: white;
 }
+
+.mouse-laymas:hover {
+  opacity: 75%;
+}
+
 /* JUMBOTRON AKHIR */
 
 /* PROGRAM AWAL */
@@ -356,3 +361,27 @@ body {
   max-width: 100%;
   height: auto;
 }
+/* TENTANG KAMI AKHIR */
+
+/* KONTAK AWAL */
+.bg-blue {
+  background-color: #226da8;
+}
+
+.ar-img {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  width: 50%;
+}
+
+.modal-info {
+  color: #226da8;
+}
+
+.modal-list li {
+  list-style-type: none;
+}
+/* KONTAK AKHIR */

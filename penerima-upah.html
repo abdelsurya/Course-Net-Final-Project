@@ -74,7 +74,7 @@
                 </div>
             </div>
             <div class="row justify-content-center">
-                <div class="col-6">
+                <div class="col-md-6">
                     <div class="accordion accordion-flush" id="manfaat-pu">
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="jht">
@@ -574,84 +574,46 @@
                     </div>
                     <div class="tab-pane container" id="perhitungan-iuran">
                         <div class="row justify-content-center">
-                            <div class="col-6">
+                            <div class="col-md-6">
                                 <div class="mt-3 mb-3">
                                     <h3>Perhitungan Iuran</h3>
                                 </div>
-                                <div class="accordion" id=perhitungan-jkk">
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="headingjkk">
-                                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                                data-bs-target="#collapsejkk" aria-expanded="true"
-                                                aria-controls="collapseOne">
-                                                Jaminan Kecelakaan Kerja
-                                            </button>
-                                        </h2>
-                                        <div id="collapsejkk" class="accordion-collapse collapse"
-                                            aria-labelledby="headingjkk" data-bs-parent="perhitungan-jkk">
-                                            <div class="accordion-body">
-                                                <ol type="1">
-                                                    <li>Tingkat risiko sangat rendah : 0,24% dari Upah sebulan</li>
-                                                    <li>Tingkat risiko rendah : 0,54% dari Upah sebulan</li>
-                                                    <li>Tingkat risiko sedang : 0,89% dari Upah sebulan</li>
-                                                    <li>Tingkat risiko tinggi : 1,27% dari Upah sebulan</li>
-                                                    <li>Tingkat risiko sangat tinggi : 1,74% dari Upah sebulan.</li>
-                                                </ol>
-                                            </div>
-                                        </div>
+                                <div class="m-3">
+                                    <div class="slideclick1 headingjkk d-flex align-items-center">
+                                        <span class="li-perhitungan">a</span>
+                                        <h6>Jaminan Kecelakaan Kerja</h6>
+                                        <span class="ms-auto">
+                                            <i class="up1 bi bi-chevron-down"></i>
+                                        </span>
+                                    </div>
+                                    <div class="collapsejkk collapseperhitungan">
+                                        <p class="ms-5">Besar perhitungan iuran senilai 1% dari penghasilan perbulan</p>
                                     </div>
                                 </div>
-                                <div class="accordion" id=perhitungan-jkm">
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="headingjkm">
-                                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                                data-bs-target="#collapsejkm" aria-expanded="true"
-                                                aria-controls="collapsejkm">
-                                                Jaminan Kematian
-                                            </button>
-                                        </h2>
-                                        <div id="collapsejkm" class="accordion-collapse collapse"
-                                            aria-labelledby="headingjkm" data-bs-parent="perhitungan-jkm">
-                                            <div class="accordion-body">
-                                                0,3% dari Upah sebulan
-                                            </div>
-                                        </div>
+                                <hr>
+                                <div class="m-3">
+                                    <div class="slideclick2 headingjkm d-flex align-items-center">
+                                        <span class="li-perhitungan">b</span>
+                                        <h6>Jaminan Kematian</h6>
+                                        <span class="ms-auto">
+                                            <i class="up2 bi bi-chevron-down"></i>
+                                        </span>
                                     </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="headingjht">
-                                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                                data-bs-target="#collapsejht" aria-expanded="true"
-                                                aria-controls="collapsejht">
-                                                Jaminan Hari Tua
-                                            </button>
-                                        </h2>
-                                        <div id="collapsejht" class="accordion-collapse collapse"
-                                            aria-labelledby="headingjht" data-bs-parent="perhitungan-jht">
-                                            <div class="accordion-body">
-                                                <ol type="1">
-                                                    <li>Pemberi kerja 3,7% dari Upah sebulan</li>
-                                                    <li>Pekerja 2% dari Upah sebulan</li>
-                                                </ol>
-                                            </div>
-                                        </div>
+                                    <div class="collapsejkm collapseperhitungan">
+                                        <p class="ms-5">Besar perhitungan iuran senilai Rp 6.800</p>
                                     </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="headingjpn">
-                                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                                data-bs-target="#collapsejpn" aria-expanded="true"
-                                                aria-controls="collapsejpn">
-                                                Jaminan Pensiun
-                                            </button>
-                                        </h2>
-                                        <div id="collapsejpn" class="accordion-collapse collapse"
-                                            aria-labelledby="headingjpn" data-bs-parent="perhitungan-jpn">
-                                            <div class="accordion-body">
-                                                <ol type="1">
-                                                    <li>Pemberi kerja 2% dari Upah sebulan</li>
-                                                    <li>Pekerja 1% dari Upah sebulan</li>
-                                                </ol>
-                                            </div>
-                                        </div>
+                                </div>
+                                <hr>
+                                <div class="m-3">
+                                    <div class="slideclick3 headingjht d-flex align-items-center">
+                                        <span class="li-perhitungan">c</span>
+                                        <h6>Jaminan Hari Tua</h6>
+                                        <span class="ms-auto">
+                                            <i class="up3 bi bi-chevron-down"></i>
+                                        </span>
+                                    </div>
+                                    <div class="collapsejht collapseperhitungan">
+                                        <p class="ms-5">Besar perhitungan iuran senilai 2% dari penghasilan perbulan</p>
                                     </div>
                                 </div>
                             </div>
@@ -659,6 +621,7 @@
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     </section>
     <!-- MANFAAT PU AKHIR -->

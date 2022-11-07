@@ -261,3 +261,22 @@ body {
   list-style-type: none;
 }
 /* KONTAK AKHIR */
+
+.collapseperhitungan {
+  display: none;
+}
+
+.li-perhitungan {
+  background-color: #226da8;
+  color: white;
+  width: 35px;
+  padding-left: 12px;
+  font-size: 16px;
+  border-radius: 10px;
+  margin: 0 10px 0px 0;
+  font-family: GothamBold, Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+i.bi {
+  user-select: none;
+}

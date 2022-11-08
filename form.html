@@ -68,36 +68,45 @@
     <!-- CAROUSEL AKHIR -->
 
     <!-- FORM AWAL -->
-    <div class="container text-center mt-5">
-        <h2>Formulir Pendaftaran <br> Peserta Bukan Penerima Upah</h2>
-    </div>
     <div class="container">
-        <div class="container h-100">
-            <div class="row h-100 justify-content-center align-items-center">
-                <div class="col-10 col-md-8 col-lg-6">
-                    <form class="m-5">
-                        <div class="mb-3">
-                            <label for="exampleInput1" class="form-label">No. Identitas</label>
-                            <input type="number" class="form-control" id="exampleInput1"
-                                placeholder="Nomor Induk Kependudukan (KTP)">
-                        </div>
-                        <div class="mb-3">
-                            <label for="exampleInput2" class="form-label">Nama Lengkap</label>
-                            <input type="text" class="form-control" id="exampleInput2" placeholder="Sesuai KTP">
-                        </div>
-                        <div class="mb-3">
-                            <label for="exampleInput3" class="form-label">Tanggal Lahir</label>
-                            <input type="date" class="form-control" id="exampleInput3" placeholder="dd-mm-yyyy">
-                        </div>
-                        <div class="mb-3">
-                            <label for="exampleInput4" class="form-label">No Handphone</label>
-                            <input type="number" class="form-control" id="exampleInput4" placeholder="08xxxxxx">
-                        </div>
-                        <div class="d-grid justify-content-center">
-                            <button type="submit" class="btn btn-primary">Submit</button>
-                        </div>
-                    </form>
+        <div class="row text-center">
+            <div class="col">
+                <h2>Formulir Pendaftaran <br> Peserta Bukan Penerima Upah</h2>
+            </div>
+        </div>
+        <div class="row justify-content-center mb-3">
+            <div class="col-md-5">
+                <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
+                    <strong>Terimakasih!</strong> Proses pendaftaran telah kami terima.
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                 </div>
+                <form name="pendaftaran-bpu" class="m-2">
+                    <div class="mb-3">
+                        <label for="nik" class="form-label">No. Identitas</label>
+                        <input type="number" class="form-control" id="nik" aria-describedby="nik"
+                            placeholder="Nomor Induk Kependudukan (KTP)" name="nik">
+                    </div>
+                    <div class="mb-3">
+                        <label for="nama" class="form-label">Nama Lengkap</label>
+                        <input type="text" class="form-control" id="nama" aria-describedby="nama"
+                            placeholder="Sesuai KTP" name="nama">
+                    </div>
+                    <div class="mb-3">
+                        <label for="lahir" class="form-label">Tanggal Lahir</label>
+                        <input type="date" class="form-control" id="lahir" aria-describedby="lahir"
+                            placeholder="dd-mm-yyyy" name="lahir">
+                    </div>
+                    <div class="mb-3">
+                        <label for="hp" class="form-label">No Handphone</label>
+                        <input type="number" class="form-control" id="hp" aria-describedby="hp" placeholder="08xxxxxx"
+                            name="hp">
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-kirim">Kirim</button>
+                    <button class="btn btn-primary btn-loading d-none" type="button" disabled>
+                        <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                        Loading...
+                    </button>
+                </form>
             </div>
         </div>
     </div>
@@ -169,6 +178,29 @@
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.min.js"></script>
     <script src="assets/js/script.js"></script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbytexpCWqcGd_M7CFt5pJQ0G4v67mkI6znEkzHJRjnMrE7_wVTogyjmCktPeaVPEIzF/exec';
+        const form = document.forms['pendaftaran-bpu'];
+        const btnKirim = document.querySelector('.btn-kirim');
+        const btnLoading = document.querySelector('.btn-loading');
+        const myAlert = document.querySelector('.my-alert');
+
+        form.addEventListener('submit', (e) => {
+            e.preventDefault();
+            btnLoading.classList.toggle('d-none');
+            btnKirim.classList.toggle('d-none');
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    btnLoading.classList.toggle('d-none');
+                    btnKirim.classList.toggle('d-none');
+                    myAlert.classList.toggle('d-none');
+                    form.reset();
+                    console.log('Success!', response)
+                })
+                .catch(error => console.error('Error!', error.message))
+        });
+    </script>
 
 </body>
 

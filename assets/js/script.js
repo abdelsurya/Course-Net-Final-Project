@@ -9,27 +9,6 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
-  $(".mouse-laymas").hover(
-    function () {
-      $(this).animate(
-        {
-          marginTop: "-=0.2%",
-        },
-        200
-      );
-    },
-    function () {
-      $(this).animate(
-        {
-          marginTop: "0%",
-        },
-        200
-      );
-    }
-  );
-});
-
-$(document).ready(function () {
   $(".slideclick1").css("cursor", "pointer");
 });
 $(document).ready(function () {

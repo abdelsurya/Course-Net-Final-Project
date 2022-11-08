@@ -202,9 +202,18 @@ body {
   font-weight: bold;
 }
 
-.navtabs-custom {
-  font-weight: bold;
+@media (min-width: 576px) {
+  .rounded-nav {
+    border-radius: 50rem !important;
+  }
 }
+
+@media (min-width: 576px) {
+  .rounded-nav .nav-link {
+    border-radius: 50rem !important;
+  }
+}
+
 /* PENERIMA UPAH AKHIR */
 
 /* BERITA AWAL */

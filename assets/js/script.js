@@ -36,8 +36,8 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
-  $(".headingjht").click(function () {
-    $(".collapsejht").slideToggle("slow");
+  $(".headingjkk").click(function () {
+    $(".collapsejkk").slideToggle("slow");
   });
 });
 $(document).ready(function () {
@@ -46,7 +46,7 @@ $(document).ready(function () {
   });
 });
 $(document).ready(function () {
-  $(".headingjkk").click(function () {
-    $(".collapsejkk").slideToggle("slow");
+  $(".headingjht").click(function () {
+    $(".collapsejht").slideToggle("slow");
   });
 });

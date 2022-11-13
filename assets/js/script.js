@@ -64,3 +64,8 @@ $(document).ready(function () {
     $(".collapsejpn").slideToggle("slow");
   });
 });
+$(document).ready(function () {
+  $(".headingsimulasi").click(function () {
+    $(".collapsesimulasi").slideToggle("slow");
+  });
+});

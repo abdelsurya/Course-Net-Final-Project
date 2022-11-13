@@ -36,6 +36,15 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
+  $(".slideclick4").css("cursor", "pointer");
+});
+$(document).ready(function () {
+  $(".slideclick4").click(function () {
+    $(".up4").toggleClass("bi bi-chevron-up");
+  });
+});
+
+$(document).ready(function () {
   $(".headingjkk").click(function () {
     $(".collapsejkk").slideToggle("slow");
   });
@@ -48,5 +57,10 @@ $(document).ready(function () {
 $(document).ready(function () {
   $(".headingjht").click(function () {
     $(".collapsejht").slideToggle("slow");
+  });
+});
+$(document).ready(function () {
+  $(".headingjpn").click(function () {
+    $(".collapsejpn").slideToggle("slow");
   });
 });

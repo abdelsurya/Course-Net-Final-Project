@@ -1,12 +1,6 @@
 body {
-  @import url("https://fonts.cdnfonts.com/css/gotham");
-  font-family: "Gotham";
-  font-family: "Gotham Black";
-  font-family: "Gotham Light";
-  font-family: "Gotham Thin";
-  font-family: "Gotham XLight";
-  font-family: "Gotham Book";
-  font-family: "Gotham Ultra";
+  @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+  font-family: "Montserrat", sans-serif;
 }
 
 /* NAVBAR AWAL */

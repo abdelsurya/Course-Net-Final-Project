@@ -1,6 +1,11 @@
 body {
   font-family: "Gotham", sans-serif;
-  font-size: 1rem;
+  font-family: "Gotham Black", sans-serif;
+  font-family: "Gotham Light", sans-serif;
+  font-family: "Gotham Thin", sans-serif;
+  font-family: "Gotham XLight", sans-serif;
+  font-family: "Gotham Book", sans-serif;
+  font-family: "Gotham Ultra", sans-serif;
 }
 
 /* NAVBAR AWAL */
